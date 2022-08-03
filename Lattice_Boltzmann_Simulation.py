@@ -85,7 +85,7 @@ def main():
             plt.pause(0.001)
 
     # Save figure
-    plt.savefig('../Graphs/latticeboltzmann.png', dpi=240)
+    plt.savefig('Graphs/latticeboltzmann.png', dpi=240)
     plt.show()
 
     return 0
